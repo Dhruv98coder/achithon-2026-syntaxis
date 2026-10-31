@@ -1,0 +1,21 @@
+﻿__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.streamlit/secrets.toml
+.env
+.env.*
+*.db
+*.sqlite
+*.sqlite3
+
+!.env.example
+
+# Local workspace content: uploaded documents and generated exports.
+workspace_files/
+saved_reports/
+
+# Local runtime database and temporary smoke-test scripts
+agentgate.db
+_smoke_*.py
